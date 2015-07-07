@@ -18,8 +18,8 @@
 /* entire ipc buffer except tag register (word 0) */
 #define MAX_IPC_BUFFER (1024 - 1)
 
-#include <sel4_types.h>
-#include <sel4_printf.h>
+#include <sel4/types.h>
+#include <sel4/printf.h>
 #include <sel4/arch/syscalls.h>
 
 static inline void

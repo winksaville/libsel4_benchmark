@@ -1,3 +1,3 @@
-# libsel4_benchmark
+# libsel4benchmark
 
 Benchmark library for seL4.
