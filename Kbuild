@@ -6,5 +6,5 @@
 # See "LICENSE_BSD2.txt" for details.
 #
 
-libs-$(CONFIG_LIB_SEL4_BENCHMARK) += libsel4_benchmark
-libsel4_benchmark: common libsel4
+libs-$(CONFIG_LIB_SEL4_BENCHMARK) += libsel4benchmark
+libsel4benchmark: common libsel4

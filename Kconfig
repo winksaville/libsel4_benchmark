@@ -12,4 +12,4 @@ menuconfig LIB_SEL4_BENCHMARK
     select BENCHMARK
     select LIB_SEL4
     help
-        Implements the benchmark.
+        Implements the benchmark library.
