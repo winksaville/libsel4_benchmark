@@ -48,7 +48,7 @@ seL4_BenchmarkDumpFullLog()
 
 #else // CONFIG_BENCHMARK is not defined
 
-#pragma message "In " __FILE__ " CONFIG_BENCHMARK is not defined. Select 'seL4 Kernel' -> 'seL4 System Parameters' -> 'Adds a log buffer to the kernel ...'"
+#pragma message "In " __FILE__ " CONFIG_BENCHMARK is not defined. Edit .config setting 'CONFIG_BENCHMARK=y'"
 
 #endif // CONFIG_BENCHMARK
 
