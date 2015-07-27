@@ -22,6 +22,7 @@
 #include <sel4/printf.h>
 #include <sel4/arch/syscalls.h>
 
+// Dump the full log
 static inline void
 seL4_BenchmarkDumpFullLog()
 {
@@ -49,6 +50,10 @@ seL4_BenchmarkDumpFullLog()
 #else // CONFIG_BENCHMARK is not defined
 
 #pragma message "In " __FILE__ " CONFIG_BENCHMARK is not defined. Edit .config setting 'CONFIG_BENCHMARK=y'"
+
+
+// Initialize benchmark module
+seL4_BencmarkInit();
 
 #endif // CONFIG_BENCHMARK
 
